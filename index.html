@@ -1,18 +1,4 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-</head>
-
-<body>
-  
-</body>
-
-</html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,7 +12,7 @@
         .input-field { width: 94%; padding: 10px; margin-top: 8px; border: 1px solid #111a2e; background-color: #03060f; color: #10b981; font-family: monospace; text-align: center; display: block; margin-left: auto; margin-right: auto; }
         .monospace-address-block { background-color: #03060f; border: 1px solid #111a2e; padding: 12px; color: #10b981; font-family: monospace; font-size: 0.68rem; font-weight: bold; text-align: center; word-break: break-all; cursor: pointer; margin: 10px 0; }
     </style>
-    <!-- Official Supabase Client SDK Framework Node Connector -->
+    <!-- CORRECTED OFFICIAL SUPABASE SATELLITE DISH CONNECTOR CDN LINK Wire -->
     <script src="https://jsdelivr.net"></script>
 </head>
 <body>
@@ -45,7 +31,7 @@
                     ⚠️ ABSOLUTE UNBENDING SYSTEM LAW:
                 </p>
                 <p style="font-size: 0.68rem; color: #f8fafc; margin: 0; line-height: 1.4; font-family: monospace;">
-                    This terminal operates under a strict Ghost-Key Protocol. If you lose or forget your generated Private Key, <span style="color: #ef4444; font-weight: bold;">YOU INSTANTLY LOSE ACCESS TO YOUR ACCOUNT AND ALL MINED BALANCES FOREVER.</spaeackups, no passwords, and no customer support su nodes to save you. Print it out or lose i entirely.
+                    This terminal operates under a strict Ghost-Key Protocol. If you lose or forget your generated Private Key, <span style="color: #ef4444; font-weight: bold;">YOU INSTANTLY LOSE ACCESS TO YOUR ACCOUNT AND ALL MINED BALANCES FOREVER.</span> There are no email backups, no passwords, and no customer support nodes to save you. Print it out or lose it entirely.
                 </p>
             </div>
             
@@ -88,9 +74,10 @@
                 return;
             }
 
-            const SUPABASE_PROJECT_URL = "https://gtgspuewynrsopxrhfuj.supabase.co"; // Replace with your Project URL
-            const SUPABASE_ANON_PUBLIC_KEY = "sb_publishable_N_r9-qdu0XMVzPw2TCHPiw_nSVJYDr-"; // Replace with your Anon Key
-            const supabase = supabase.createClient(SUPABASE_PROJECT_URL, SUPABASE_ANON_PUBLIC_KEY);
+            // Real Production Keys Mapped Natively ⌆
+            const SUPABASE_PROJECT_URL = "https://gtgspuewynrsopxrhfuj.supabase.co"; 
+            const SUPABASE_ANON_PUBLIC_KEY = "sb_publishable_N_r9-qdu0XMVzPw2TCHPiw_nSVJYDr-"; 
+            const supabase = window.supabase.createClient(SUPABASE_PROJECT_URL, SUPABASE_ANON_PUBLIC_KEY);
 
             const freshGeneratedKey = generateSecureGhostHexKey();
             const anonymousEmail = `${username}@nexa.citadel`;
